@@ -1,0 +1,43 @@
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+button:hover {
+  background-color: #F0C808;
+  color: #FFF;
+  box-shadow: 0px 0px 10px #F0C808;
+}
+
+body {
+  background-color: #F2F2F2;
+}

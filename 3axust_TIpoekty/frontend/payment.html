@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    <link rel="stylesheet" href="static/pay_style.css">
+    <script src="app.js" type="module"></script>
+</head>
+<body>
+    <form method="post" id="payment-form">
+        <label for="cardNumber">Номер карти</label><br>
+        <input type="text" id="cardNumber" name="cardNumer" required><br>
+
+        <label for="pin">Пін код</label><br>
+        <input type="text" id="pin" name="pin" required><br>
+
+        <label for="cvc">CVC</label><br>
+        <input type="text" id="cvc" name="CVC" required><br>
+
+        <input type="submit" id="pSubmit" value="Купити">
+    </form>
+
+</body>
+</html>
